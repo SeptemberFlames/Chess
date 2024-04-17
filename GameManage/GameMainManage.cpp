@@ -13,6 +13,7 @@
 #include "BillManage.h"
 #include "json/json.h"
 #include "LoaderAsyncEvent.h"
+#include <algorithm>
 
 //////////////////////////////////////////////////////////////////////
 CGameMainManage::CGameMainManage()
