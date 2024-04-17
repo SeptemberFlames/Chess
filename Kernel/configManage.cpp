@@ -216,7 +216,7 @@ bool CConfigManage::LoadLoaderServerConfig()
 	string key = TEXT("LOADERSERVER");
 	string ret;
 
-	ret = file.GetKeyVal(key, "serviceName", "hm");
+	ret = file.GetKeyVal(key, "serviceName", "brnn");
 	strncpy(m_loaderServerConfig.serviceName, ret.c_str(), sizeof(m_loaderServerConfig.serviceName) - 1);
 
 	ret = file.GetKeyVal(key, "logonserverPasswd", "e10adc3949ba59abbe56e057f20f883e");

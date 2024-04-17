@@ -7,7 +7,7 @@
 //
 // Generated from the TEXTINCLUDE 2 resource.
 //
-#include "afxres.h"
+#include "windows.h"
 
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
@@ -111,7 +111,7 @@ END
 LANGUAGE 4, 2
 #pragma code_page(936)
 #include "res\UpGradeDLL.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
-#include "afxres.rc"     // 标准组件
+//#include "afxres.rc"     // 标准组件
 #endif
 
 /////////////////////////////////////////////////////////////////////////////
